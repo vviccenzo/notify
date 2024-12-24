@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: notify
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: vvpcraft@gmail.com
+    password: ruyp krje ftse myyc
+    protocol: smtp
+    properties:
+     mail:
+      smtp:
+       auth: true
+       starttls:
+        enable: true
+      debug: true
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/email_notify
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+server:
+  port: 8081
