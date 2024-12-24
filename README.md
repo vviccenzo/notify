@@ -8,7 +8,6 @@ Este projeto é uma aplicação Java 17 utilizando Spring Framework, com integra
 - **Spring Boot**: Framework para desenvolvimento rápido e simplificado de microserviços.
 - **MongoDB**: Banco de dados NoSQL utilizado para armazenar informações das notificações.
 - **RabbitMQ**: Sistema de mensageria que permite a comunicação assíncrona entre os microserviços.
-- **H2 Database**: Banco de dados relacional em memória, utilizado para fins de desenvolvimento e testes.
 
 ## Funcionalidades
 
