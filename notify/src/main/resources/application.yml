@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: notify
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/notify
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+server:
+  port: 8080
